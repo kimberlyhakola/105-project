@@ -1,0 +1,146 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+#padding {
+    padding: 18px;
+}
+#specials, #reviews {
+    height: 210px;
+    border-style: solid solid solid none;
+    border-width: 1px;
+    border-color: #dedbbc;
+}
+h1 {
+    font-family: 'Montserrat', bold;
+    font-size: 30px;
+}
+h2 {
+    font-family: 'Montserrat', bold;
+    font-size: 18px;
+    line-height: 23px;
+}
+h3 {
+    font-family: 'Montserrat', bold;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1236px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 618px;
+    float: left;
+}
+.third-width {
+    width:  375px;
+    float: left;
+}
+
+/***** HEADER SECTION *****/
+header {
+    text-align: left;
+    height: 108px;
+}
+
+header span {
+    color: #77a466;
+}
+nav {
+    width: 570px;
+    float: right;
+    word-spacing: 23px;
+    padding: 15px;
+}
+nav ul li {
+    display: inline-block;
+    padding-top: 15px;
+}
+nav ul li a {
+    font-family: 'Montserrat', bold;
+    font-size: 14px;
+    color: #77a466;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+}
+
+main img {
+    height: 288px;
+    width: 1200px;
+    clear: both;
+}
+#img {
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color:  #77a466;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #77a466;
+}
+
+/***** TOP/ABOUT SECTION *****/
+#about {
+    padding-top: 28px;
+}
+#about h2 span {
+    color: #77a466;
+    text-transform: uppercase;
+    text-align: left;
+}
+#about p {
+    font-size: 16px;
+    line-height: 25px;
+    word-spacing: 2px;
+}
+
+/***** SPECIALS SECTION *****/
+ul {
+    margin: 0;
+    padding: 0;
+   
+}
+#specials p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    line-height: 18px;
+    color: #77a466;
+}
+
+/*****REVIEWS SECTION *****/
+#reviews {
+    font-size: 16px;
+    line-height: 21px;
+    padding: 0 0 0 25px;
+}
+/***** CONTACT SECTION *****/
+#contact {
+    height: 210px;
+    border-style: solid none;
+    border-width: 1px;
+    border-color: #dedbbc;
+    font-size: 16px;
+    line-height: 12px;
+    padding: 0 0 0 25px;
+}
+/***** FOOTER SECTION *****/
+footer {
+    font-family: 'Montserrat', bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+    clear: both;
+}
+footer span {
+    font-family: 'Wisdom Script';
+    font-size: 16px;
+    color: #77a466;
+    text-transform: none;
+    
+
+}
